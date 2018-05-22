@@ -1,64 +1,75 @@
-/* General Elements*/
-body{
-	background-image: url("unit-4-game/assets/images/background.png")
+body {
+	background-image: url("../images/background.png");
 }
-div{
-	background-color: white;
-	margin: 10px;
-	width: 25%
-}
-div{
-	border: solid 2px antiquewhite;
-	padding: 10px;
-}
-h1, h3, span{
-	font-weight: bold;
-	text-align: center;
-}
+
 h1{
-	font-size: 30pt;
-}
-ol{
-	list-style: decimal inside; 
-}
-ul {
-	list-style: disc inside;
-	text-indent: 20px;
-}
-/* Specfic Elements*/
-div.header, div.gems{
-	background-color: #e0e0eb;
-}
-div.header, div.instructions{
-	width: 50%;
-}
-/* Classes */
-.numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
-	height: 60px;
-}
-.userTotal{
-	width: 15%;
-	height: 60px;
-}
-.gems{
+	background-color: orange;
+	color: white;
+	display:inline;
 	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
 }
-.gemImage{
-	height: 60px;
-	margin: 10px;
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
 }
-/* IDs */
-#blue{
-	color: #3092c7;
+
+#instructions {
+	background-color: white;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
 }
-#green{
-	color: #00aa59;
+
+#guessingNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd
 }
-#red{
-	color: #ec4b5f;
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
 }
-#yellow{
-	color: #ffc225;
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
 }
